@@ -1,0 +1,77 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<movie_collection xmlns:collection="http://movies.com">
+	<movie
+		collection:id="1"
+		collection:title="Rambo"
+		collection:description="dude kills everyone and doesn't die">	
+			<showtimes>
+				<early_showtime>9:00am</early_showtime>
+				<mid_showtime>1:00pm</mid_showtime>
+				<late_showtime>10:00pm</late_showtime>
+			</showtimes>	
+		<emptyelement1></emptyelement1>
+		<emptyelement2></emptyelement2>	
+	</movie>	
+	<movie
+		collection:id="2"
+		collection:title="Interstellar"
+		collection:description="dude has trippy spiritual space experience">	
+			<showtimes>
+				<early_showtime>9:00am</early_showtime>
+				<mid_showtime>1:00pm</mid_showtime>
+				<late_showtime>10:00pm</late_showtime>
+			</showtimes>	
+		<emptyelement1></emptyelement1>
+		<emptyelement2></emptyelement2>	
+	</movie>	
+		<movie
+		collection:id="3"
+		collection:title="The Great Rock-n-Roll Swindle"
+		collection:description="crazy old punk movie. It's weird">	
+			<showtimes>
+				<early_showtime>9:00am</early_showtime>
+				<mid_showtime>1:00pm</mid_showtime>
+				<late_showtime>10:00pm</late_showtime>
+			</showtimes>	
+		<emptyelement1></emptyelement1>
+		<emptyelement2></emptyelement2>	
+	</movie>	
+	<movie
+		collection:id="4"
+		collection:title="Westway to the World"
+		collection:description="Awesome documentary about The Clash">	
+			<showtimes>
+				<early_showtime>9:00am</early_showtime>
+				<mid_showtime>1:00pm</mid_showtime>
+				<late_showtime>10:00pm</late_showtime>
+			</showtimes>	
+		<emptyelement1></emptyelement1>
+		<emptyelement2></emptyelement2>	
+	</movie>			
+</movie_collection>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*create a file called movies.xml
+the parent of the file should be "movie_collection" with the prefix "collection" and the namespace "http://movies.com"
+the XML file must have at least 4 movies
+a movie must have an id attribute
+a movie must have a title and description
+a movie must have a child element called "showtimes", and it contains at least 3 showtime elements
+a movie should have 2 empty elements.
+*/
